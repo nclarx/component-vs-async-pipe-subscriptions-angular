@@ -1,0 +1,9 @@
+<h1>JSON</h1>
+<p>Subscribing in the component:</p>
+<pre *ngIf="objects">
+  {{ objects | json }}
+</pre>
+<p>Using async pipe in the template:</p>
+<pre>
+  {{ (objectsWithAsyncPipe | async) | json }}
+</pre>
